@@ -28,3 +28,18 @@ transcript
 
 .DS_Store
 Thumbs.db
+# Python-related ignores
+__pycache__/
+*.pyc
+
+# AMIQ DVT-related ignores
+.dvt/*
+!.dvt/default.build
+!.dvt/default.ls
+
+# Vivado-related ignores
+build/
+.Xil/
+*.pb
+*.wdb
+*.jou
