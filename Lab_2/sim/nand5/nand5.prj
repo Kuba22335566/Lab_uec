@@ -1,0 +1,1 @@
+sv work ../../rtl/nand5.sv nand5_test.sv
