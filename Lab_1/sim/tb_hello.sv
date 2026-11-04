@@ -1,4 +1,4 @@
-module hello_tb;
+module tb_hello;
 
 initial begin
     $display("hello, System Verilog!");
