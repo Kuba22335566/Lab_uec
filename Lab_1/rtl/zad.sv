@@ -1,4 +1,4 @@
-module zad1(
+module nand(
     output logic y,
     input bit a,
     input bit b,
