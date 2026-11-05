@@ -14,7 +14,6 @@ module mux4_4_test();
         input2 = 4'b0001;
         input3 = 4'b1000;
 
-        $display("Rozpoczecie testow mux4_4...");
 
         for (int index=0; index<4; ++index) begin
             sel[3:0] = ~(4'b0001 << index);
@@ -36,7 +35,6 @@ module mux4_4_test();
         assert (input_selected === 4'bxxxx) else
             $error("Blad dla blednego sel=%b! exp: xxxx, rcv: %b", sel, input_selected);
 
-        $display("Koniec symulacji.");
         $finish;
     end
 
