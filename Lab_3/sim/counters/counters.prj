@@ -1,0 +1,1 @@
+sv work ../../rtl/counters.sv ../../rtl/counter.sv counters_test.sv

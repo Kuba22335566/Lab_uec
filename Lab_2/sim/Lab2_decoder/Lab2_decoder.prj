@@ -1,1 +1,1 @@
-sv work ../../rtl/Lab2_decoder .sv Lab2_decoder_test.sv
+sv work ../../rtl/Lab2_decoder.sv Lab2_decoder_test.sv

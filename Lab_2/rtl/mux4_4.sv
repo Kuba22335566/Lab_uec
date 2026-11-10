@@ -11,7 +11,7 @@ module mux4_4(
 
 always_comb begin
     case (sel)
-        4'b1110: input_selected = input0;
+        4'b1110: input_selected = input1;
         4'b1101: input_selected = input1; 
         4'b1011: input_selected = input2; 
         4'b0111: input_selected = input3; 

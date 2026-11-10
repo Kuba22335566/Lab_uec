@@ -1,11 +1,11 @@
-module lab2_decoder_test();
+module Lab2_decoder_test();
 
     logic [3:0] dec;
     logic [6:0] result;
     
     logic [6:0] expected_val;
 
-    lab2_decoder u_lab2_decoder(.dec, .result);
+    Lab2_decoder u_lab2_decoder(.dec, .result);
 
     initial begin
         for (int i = 0; i < 16; ++i) begin
